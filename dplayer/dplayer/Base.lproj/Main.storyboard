@@ -61,54 +61,35 @@
         <!--SongsVC-->
         <scene sceneID="hbs-nc-I00">
             <objects>
-                <viewController storyboardIdentifier="Songs" id="igU-EQ-p7a" customClass="songsVC" customModule="dPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="child2" id="igU-EQ-p7a" customClass="songsVC" customModule="dPlayer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qzW-d3-69f">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Songs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gr-d5-xXr">
-                                <rect key="frame" x="138" y="143" width="164" height="75"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="1gr-d5-xXr" firstAttribute="top" secondItem="YLM-6T-i5v" secondAttribute="top" constant="123" id="Dl5-tH-Kr1"/>
-                            <constraint firstItem="1gr-d5-xXr" firstAttribute="leading" secondItem="YLM-6T-i5v" secondAttribute="leading" constant="138" id="Hoj-gY-e59"/>
-                            <constraint firstItem="YLM-6T-i5v" firstAttribute="bottom" secondItem="1gr-d5-xXr" secondAttribute="bottom" constant="449" id="nvs-La-nTv"/>
-                            <constraint firstItem="YLM-6T-i5v" firstAttribute="trailing" secondItem="1gr-d5-xXr" secondAttribute="trailing" constant="73" id="zWd-zR-uQJ"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="YLM-6T-i5v"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vBU-PM-IYl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1830" y="892"/>
+            <point key="canvasLocation" x="1830" y="270"/>
         </scene>
         <!--FavoritesVC-->
         <scene sceneID="A1Z-Fm-SN4">
             <objects>
-                <viewController storyboardIdentifier="Favourites" id="9vD-mF-n7i" customClass="favoritesVC" customModule="dPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="child1" id="9vD-mF-n7i" customClass="favoritesVC" customModule="dPlayer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1yD-C2-APH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="favourites" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jd4-OK-Xc6">
-                                <rect key="frame" x="116" y="217" width="164" height="75"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jd4-OK-Xc6">
+                                <rect key="frame" x="184" y="217" width="42" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="jd4-OK-Xc6" firstAttribute="leading" secondItem="INz-kn-UBJ" secondAttribute="leading" constant="116" id="2M1-bB-cAt"/>
-                            <constraint firstItem="INz-kn-UBJ" firstAttribute="trailing" secondItem="jd4-OK-Xc6" secondAttribute="trailing" constant="95" id="6f1-qJ-Xmw"/>
-                            <constraint firstItem="INz-kn-UBJ" firstAttribute="bottom" secondItem="jd4-OK-Xc6" secondAttribute="bottom" constant="375" id="GOD-oc-DSh"/>
-                            <constraint firstItem="jd4-OK-Xc6" firstAttribute="top" secondItem="INz-kn-UBJ" secondAttribute="top" constant="197" id="uvm-DT-6ch"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="INz-kn-UBJ"/>
                     </view>
                 </viewController>
